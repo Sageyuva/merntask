@@ -1,0 +1,42 @@
+table{
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th{
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black; 
+}
+tr{
+    border: 2px solid black;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.edbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 12px;
+}
+.dlbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 12px;
+}
